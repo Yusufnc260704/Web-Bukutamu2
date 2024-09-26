@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Buku Tamu Modern</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <img src="logoBBPMP.jpg" alt="Logo Buku Tamu" class="logo" />
+      </div>
+    </header>
+
+    <main>
+      <section class="guestbook-section">
+        <h2>BBPMP Jateng</h2>
+        <p>Silakan isi data keperluan kunjungan Anda di sini:</p>
+        <form class="guestbook-form">
+          <label for="name">Nama:</label>
+          <input type="text" id="name" name="name" placeholder="Masukkan nama Anda" required />
+
+          <label for="time">Waktu:</label>
+          <input type="time" id="time" name="time" required />
+
+          <label for="purpose">Keperluan:</label>
+          <input type="text" id="purpose" name="purpose" placeholder="Masukkan keperluan Anda" required />
+
+          <label for="phone">No HP:</label>
+          <input type="tel" id="phone" name="phone" placeholder="Masukkan nomor HP Anda" required />
+
+          <label for="date">Tanggal:</label>
+          <input type="date" id="date" name="date" required />
+
+          <button type="submit">Kirim</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Buku Tamu Modern. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
